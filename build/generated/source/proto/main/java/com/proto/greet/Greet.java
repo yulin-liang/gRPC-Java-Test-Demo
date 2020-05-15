@@ -42,9 +42,11 @@ public final class Greet {
       "\n\nfirst_name\030\001 \001(\t\022\021\n\tlast_name\030\002 \001(\t\"1\n" +
       "\014GreetRequest\022!\n\010greeting\030\001 \001(\0132\017.greet." +
       "Greeting\"\037\n\rGreetResponse\022\016\n\006result\030\001 \001(" +
-      "\t2G\n\017GreetingService\0224\n\005Greet\022\023.greet.Gr" +
-      "eetRequest\032\024.greet.GreetResponse\"\000B\023\n\017co" +
-      "m.proto.greetP\001b\006proto3"
+      "\t2\207\001\n\017GreetingService\0224\n\005Greet\022\023.greet.G" +
+      "reetRequest\032\024.greet.GreetResponse\"\000\022>\n\021G" +
+      "reetClientStream\022\017.greet.Greeting\032\024.gree" +
+      "t.GreetResponse\"\000(\001B\023\n\017com.proto.greetP\001" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
